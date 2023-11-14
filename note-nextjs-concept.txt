@@ -1,0 +1,21 @@
+- Next js architect :
++ server component: run/ render on server
++ client component: run/ render on user device
+=> why shoulder render on server component ?
++ reduce size js bundle (1)
++ enhance SEO
++ less time for browers render
++ make init page load fast
+=> Why render in component more fast ? :
++ fetch data directly to database instead of (BE access data, then FE fetch data via API)
+=> when to assign a server component or client component ? :
++ is relate to user activity => client component
++ if relate to heavy computation => server component
+=> what is SSG and ISG :
+=> what is edge runtime and node runtime
+
+Appendix :
+1. javascript bundle : JavaScript bundle refers to a single file that contains all 
+the JavaScript code required for a web application to run. 
+This bundling process is commonly done to improve performance 
+by reducing the number of HTTP requests needed to load a webpage.

@@ -1,0 +1,50 @@
+I- HOW TO SET UP A NEXTJS PROJECT FROM SCRATCH: 
+    1.config css
+    + how to config a css framework - tailwind css and radix UI ? :
+        . Tailwind css : for create a css property
+            - https://tailwindcss.com/docs/installation
+            - How to create custom css (apply tailwindcss) for resuseable purpose:
+                . Using @apply 
+        . Radix UI : for theme and component : typoraphy, front, shape, dark mode
+            - https://www.radix-ui.com/themes/docs/overview/getting-started
+            - npm install @radix-ui/themes
+            - How to customize theme : typoraphy:
+                . radix ui can create e theme panel help to easy modify theme
+    2.config project folder
+    + how to set up a folder structure in nextjs ? 
+            - App will always have a : 
+                + Resuseable component: appear in many files like button, skeleton, pagination
+                + constants : object, function 
+            - lib : action : interaction with backend
+            - database: config database
+            - types: for define typescript
+            - .env.local : dont push code to github, only keep in local
+II. Build project :
+STEP 1 : SET UP ROUTING 
+    1. Building a routing : 
+        a. What is routing 
+            + Each route implement a UI, function that user can interact
+            + Each route have a unique purpose, with a diffrent department team,a
+        b. Note and problem for routing
+            + Some route share same component and layout, and other have differ UI
+            + route will have a nested route : /collection/summer/woman, or dynamic route : /product/:id
+            + have so many routes => how to manage route
+    2. Nextjs provide feature for routing:
+        https://nextjs.org/docs/app/building-your-application/routing
+        - Folder base route
+        - share component across page with layout file 
+        - gruop routing: for manage route and if route with differ UI should gruop seperate route
+    3. Step to creating routes :
+        - create a group routes : because some route have differ UI, differ department, and easy to contro
+STEP 2: SET UP AUTHENTICATION - SIGN IN - SIGN UP :
+    - Consider to choose library ?
+    - AUTHENTICATION properties :
+        + protected routes : prevent only to access some resource
+        + create a user in database 
+        + user session : ?????
+
+
+
+                
+
+
