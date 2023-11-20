@@ -1,6 +1,7 @@
 import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import { ClerkProvider } from "@clerk/nextjs";
+import React from "react";
 
 import { Theme } from "@radix-ui/themes";
 import { Inter } from "next/font/google";
