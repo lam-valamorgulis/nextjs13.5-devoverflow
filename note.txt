@@ -4,11 +4,12 @@ I- HOW TO SET UP A NEXTJS PROJECT FROM SCRATCH:
         . Tailwind css : for create a css property
             - https://tailwindcss.com/docs/installation
             - How to create custom css (apply tailwindcss) for resuseable purpose:
-                . Using @apply 
+                . Using @apply :https://tailwindcss.com/docs/adding-custom-styles
         . Radix UI : for theme and component : typoraphy, front, shape, dark mode
             - https://www.radix-ui.com/themes/docs/overview/getting-started
             - npm install @radix-ui/themes
-            - How to customize theme : typoraphy:
+            - How to customize theme : typoraphy, color
+                . typoraphy with nextjs: https://www.radix-ui.com/themes/docs/theme/typography
                 . radix ui can create e theme panel help to easy modify theme
     2.config project folder
     + how to set up a folder structure in nextjs ? 
