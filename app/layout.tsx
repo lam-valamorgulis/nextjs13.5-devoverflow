@@ -1,5 +1,6 @@
 import "./globals.css";
 import "@radix-ui/themes/styles.css";
+import "./theme-config.css";
 import React from "react";
 import { Theme } from "@radix-ui/themes";
 import { Inter } from "next/font/google";
@@ -7,7 +8,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-  variable: '--font-inter',
+  variable: "--font-inter",
 });
 
 export const metadata = {

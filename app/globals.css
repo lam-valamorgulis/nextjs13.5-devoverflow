@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url("../styles/theme.css"); */
 
 /* Global : control specific className for element like: button.. */
+
 body {
-  font-family: "Inter", sans-serif;
+  color: rgb(var(--foreground-rgb));
 }
